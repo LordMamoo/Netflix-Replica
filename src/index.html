@@ -5,6 +5,8 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="./output.css" rel="stylesheet">
+        <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=search" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=home" /> -->
         <!-- <link rel="stylesheet" href="css/style.css"> -->
     </head>
 
@@ -15,8 +17,8 @@
                 <a href="index.html">2</a>
                 <a href="index.html">3</a>
                 <a href="index.html">4</a>
-                <a href="index.html">5</a>
-                <a href="index.html">6</a>
+                <a href="index.html"><span class="material-symbols-outlined">home</span></a>
+                <a href="index.html"><span class="material-symbols-outlined">search</span></a>
             </nav>
 
             <section class="flex w-full h-full">
@@ -36,33 +38,36 @@
                 </aside>
                 
                 <div class="flex flex-col justify-between w-full h-full p-5 bg-amber-100/10 rounded-r-2xl">
-                    <header class="flex justify-between w-full">
+                    <header class="flex justify-between items-center w-full">
                         <div class="flex gap-5">
                             <span>Arrows</span>
-                            <input type="search">Search</input>
+                            <input class="bg-amber-300" type="search">Search</input>
                         </div>
                         <div class="flex gap-5">
                             <span>Notifications</span>
                             <h3 class="flex flex-col items-end"><span>Matthew Tubbs</span><span>@Matthew</span></h3>
                         </div>
                     </header>
-                    <div class="columns-1">
-                        <h3 class="flex justify-center items-center w-full p-10 bg-amber-200 rounded-xl">Peaky Blinders</h3>
+                    <div class="columns-1 flex items-end w-full p-10 bg-amber-200 rounded-xl">
+                        <div class="flex">
+                            <button class="w-14 bg-blue-500 rounded-xl"><a href="index.html">Watch</a></button>
+                            <button>+</button>
+                        </div>
                     </div>
                     <div class="flex flex-col">
                         <h4>Popcorn Mania</h4>
                         <div class="columns-4 flex gap-5 justify-between w-full">
                             <div class="flex justify-center items-center w-full p-10 bg-amber-200 rounded-xl">
-                                <h3>Brooklyn Nine-Nine</h3>
+                                <h4>Brooklyn Nine-Nine</h4>
                             </div>
                             <div class="flex justify-center items-center w-full p-10 bg-amber-200 rounded-xl">
-                                <h3>Ready Player One</h3>
+                                <h4>Ready Player One</h4>
                             </div>
                             <div class="flex justify-center items-center w-full p-10 bg-amber-200 rounded-xl">
-                                <h3>Money Heist</h3>
+                                <h4>Money Heist</h4>
                             </div>
                             <div class="flex justify-center items-center w-full p-10 bg-amber-200 rounded-xl">
-                                <h3>Ash vs. Evil Dead</h3>
+                                <h4>Ash vs. Evil Dead</h4>
                             </div>
                         </div>
                      </div>
@@ -70,16 +75,16 @@
                         <h4>Continue Watching</h4>
                         <div class="columns-4 gap-5 flex justify-between w-full">
                             <div class="flex justify-center items-center w-full p-10 bg-amber-200 rounded-xl">
-                                <h3>Red Notice</h3>
+                                <h4>Red Notice</h4>
                             </div>
                             <div class="flex justify-center items-center w-full p-10 bg-amber-200 rounded-xl">
-                                <h3>Extraction</h3>
+                                <h4>Extraction</h4>
                             </div>
                             <div class="flex justify-center items-center w-full p-10 bg-amber-200 rounded-xl">
-                                <h3>The Adam Project</h3>
+                                <h4>The Adam Project</h4>
                             </div>
                             <div class=" flex justify-center items-center w-full p-10 bg-amber-200 rounded-xl">
-                                <h3>The Old Guard</h3>
+                                <h4>The Old Guard</h4>
                             </div>
                         </div>
                      </div>
