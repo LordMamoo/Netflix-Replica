@@ -1,15 +1,74 @@
 <!doctype html>
 <html>
-<head>
-    <title>Fletnix</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./output.css" rel="stylesheet">
-</head>
+    <head>
+        <title>Fletnix</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="./output.css" rel="stylesheet">
+        <!-- <link rel="stylesheet" href="css/style.css"> -->
+    </head>
 
-    <body>
-    <h1 class="text-3xl font-bold underline">
-        Hello world!
-    </h1>
+    <body class="h-screen w-screen">
+        <main class="flex justify-between items-center bg-green-950 h-full">
+            <div class="flex justify-between items-center m-10 w-full">
+                <nav class="flex flex-col justify-between m-10 p-2 rounded-xl text-white bg-amber-50/5 h-80">
+                    <a href="index.html">1</a>
+                    <a href="index.html">2</a>
+                    <a href="index.html">3</a>
+                    <a href="index.html">4</a>
+                    <a href="index.html">5</a>
+                    <a href="index.html">6</a>
+                </nav>
+
+                <section class="flex bg-black p-5 rounded-xl justify-between w-full">
+                    <aside class="text-center p-5 bg-amber-200 rounded-xl flex flex-col justify-between">
+                        <h1 class="text-4xl font-bold text-blue-500">FLEXNIX</h1>
+                        <a href="index.html">Browse</a>
+                        <a href="index.html">Wishlist</a>
+                        <a href="index.html">Coming Soon</a>
+                        <h2>New Trailers</h2>
+                    </aside>
+                    
+                    <div class="flex flex-col items-center w-full p-5 text-white bg-green-300">
+                        <header class="flex justify-between w-full">
+                            <div class="flex gap-5">
+                                <span>Arrows</span>
+                                <input type="search">Search</input>
+                            </div>
+                            <div class="flex gap-5">
+                                <span>Notifications</span>
+                                <h3 class="flex flex-col items-end"><span>Matthew Tubbs</span><span>@Matthew</span></h3>
+                            </div>
+                        </header>
+                        <div class="columns-3 gap-8 pt-10 flex">
+                            <div class="bg-amber-200 rounded-xl flex justify-center items-center p-10">
+                                <h3>Avatar The Last Airbender</h3>
+                            </div>
+                            <div class="bg-amber-200 rounded-xl flex justify-center items-center p-10">02</div>
+                            <div class="bg-amber-200 rounded-xl flex justify-center items-center p-10">03</div>
+                        </div>
+                        <div class="flex flex-col">
+                            <h4>Continue Watching</h4>
+                            <div class="columns-3 gap-8 pt-10 flex">
+                                <div class="bg-amber-200 rounded-xl flex justify-center items-center p-10">
+                                    <h3>Avatar The Last Airbender</h3>
+                                </div>
+                                <div class="bg-amber-200 rounded-xl flex justify-center items-center p-10">02</div>
+                                <div class="bg-amber-200 rounded-xl flex justify-center items-center p-10">03</div>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+            </div>
+        </main>
     </body>
 </html>
+
+<!-- Steps to install tailwind:
+    Step 1: run npm install tailwindcss @tailwindcss/cli in terminal
+    Step 2: create input.css/output.css in a src file
+    Step 3: add @import "tailwindcss"; to input.css
+    Step 4: run npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch in terminal
+    Step 5: write html, sit back, and relax
+-->
